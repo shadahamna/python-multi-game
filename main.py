@@ -4,11 +4,11 @@ import sys
 from pathlib import Path
 
 games = {
-    "1": ("Number Guessing Game", "number_guessing.py"),
-    "2": ("Rock Paper Scissors", "rock_paper_scissors.py"),
-    "3": ("Quiz Challenge", "quiz_challenge.py"),
-    "4": ("Word Scramble", "word_scramble.py"),
-    "5": ("Tic-Tac-Toe", "tic_tac_toe.py")
+    "1": ("Number Guessing Game", "number-guessing-game.py"),
+    "2": ("Rock Paper Scissors", "rock-paper-scissors-game.py"),
+    "3": ("Quiz Challenge", "quiz-challenge.py"),
+    "4": ("Word Scramble", "scramble-word-game.py"),
+    "5": ("Tic-Tac-Toe", "tic-tac-toe.py")
 }
 
 while True:
