@@ -1,3 +1,4 @@
+
 import random
 
 questions = [
@@ -125,6 +126,6 @@ for round_number in range(3):
 print("\n================================")
 print("          FINAL RESULTS")
 print("================================")
-print("Your total score:", total_score, "/ 15")
+print("Your total score:", total_score, "/", (round_number + 1) * 5)
 
 print("\nReturning to Main Menu...")
